@@ -389,8 +389,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   margin-left: auto;
   margin-right: auto;
 }
-.mb-16 {
-  margin-bottom: 4rem;
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -432,6 +433,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .rounded {
   border-radius: 0.25rem;
 }
+.rounded-lg {
+  border-radius: 0.5rem;
+}
 .bg-sky-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(224 242 254 / var(--tw-bg-opacity));
@@ -443,6 +447,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .bg-sky-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
