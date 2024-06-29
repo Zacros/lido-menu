@@ -14,8 +14,7 @@
 
 # production
 /build
-
-dist/
+/dist
 
 listino_prezzi.html
 

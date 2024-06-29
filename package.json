@@ -2,7 +2,7 @@
   "name": "lido-menu",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Zacros/lido5vele-menu.git",
+  "repository": "https://github.com/Zacros/lido-menu.git",
   "author": "Zac",
   "license": "MIT",
   "scripts": {

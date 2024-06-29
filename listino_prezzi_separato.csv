@@ -16,7 +16,7 @@ Cappuccino,2.00
 Latte macchiato,1.50
 Latte,1.50
 Cioccolata calda,2.00
-The caldo,2.00
+Thé caldo,2.00
 
 bibite
 Coca Cola lattina,3.00
@@ -26,11 +26,11 @@ Aranciata amara,3.00
 Shweppes limone,3.00
 Shweppes arancia,3.00
 Gassosa,3.00
-The al limone,3.00
-The alla pesca,3.00
+Thé al limone,3.00
+Thé alla pesca,3.00
 Chinotto,3.00
 Cedrata,3.00
-Red Bull,3.00
+Red Bull,4.00
 Gatorade,3.00
 Lemon soda,3.00
 Oran soda,3.00
@@ -49,10 +49,25 @@ patatine, 2.00
 patatine in tubo, 3.00
 
 panini
-Pomodori, 5.00
+Pomodori e rucola, 6.00
+Pomodori e mozzarella, 7.00
+Pomodori mozzarella e tonno, 8.00
+Pomodori mozzarella e tonno, 8.00
+Pomodori mais tonno e rucola, 9.00
 
-ristorante
-Pasta con vongole, 9.00
+
+
+
+ristorazione
+Pasta al pomodoro, 7.00
+Insalata di riso, 10.00
+Pesce - su ordinazione entro 11:30, 
+Fresella Semplice - pomodori, 6.00
+Fresella Completa - pomodori tonno mozzarella mais, 9.00 
+Insalatona - lattuga tonno mozzarella mais pomodori, 9.00
+Caprese, 9.00
+Frutta al pezzo, 6.00
+Tagliata di frutta, 12.00
 
 
 birre
@@ -65,17 +80,18 @@ Ceres,4.00
 Beck’s,3.50
 Peroni,2.50
 
-cocktails
+aperitivi e cocktails
+Prosecco,4.00
+Aper Tassoni,5.00
+Aperol Spritz,5.00
+Campari Spritz,7.00
 Campari e Gin,6.00
-Spritz,5.00
-Aper Tassoni,3.00
 Gin Tonic, 6.00
 Gin Tonic con Gin Mare, 9.00
 
-alcolici
+distillati e liquori
 Limoncello,3.00
 Crema di limone,3.00
-Prosecco,4.00
 Brachetto,3.00
 Grappa bianca,4.00
 Grappa scura,4.00
