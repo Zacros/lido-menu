@@ -6,7 +6,10 @@
   "author": "Zac",
   "license": "MIT",
   "scripts": {
-    "build": "postcss src/styles.css -o dist/styles.css && cp src/index.html dist/index.html"
+    "build-css": "postcss src/styles.css -o dist/styles.css",
+    "copy-html": "cp src/index.html dist/index.html",
+    "copy-icons": "mkdir -p dist/icons && cp src/icons/* dist/icons/",
+    "build": "yarn build-css && yarn copy-html && yarn copy-icons"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
