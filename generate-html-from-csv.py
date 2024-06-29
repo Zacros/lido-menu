@@ -36,9 +36,9 @@ def generate_html(csv_file, output_file):
         html_content.append('  </ul>')
         html_content.append('</section>')
 
-        html_content.append(f'<!--\n\FINE SEZIONE: {section}\n\n-->')
+        html_content.append(f'<!--\n\nFINE SEZIONE: {section}\n\n-->')
 
-    html_content.append('<!--\n\FINE CONTENUTO GENERATO\n\n-->')
+    html_content.append('<!--\n\nFINE CONTENUTO GENERATO\n\n-->')
     
 
     # Write to output file

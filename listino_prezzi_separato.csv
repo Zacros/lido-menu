@@ -34,8 +34,6 @@ Red Bull,4.00
 Gatorade,3.00
 Lemon soda,3.00
 Oran soda,3.00
-Aperol soda,3.50
-Campari soda,3.50
 Acqua bott. piccola,1.00
 Acqua bott. grande,2.00
 Succhi di frutta,3.00
@@ -47,6 +45,39 @@ Menta,2.00
 snacks
 patatine, 2.00
 patatine in tubo, 3.00
+
+aperitivi e cocktails
+Brachetto,3.00
+Prosecco,4.00
+Aperol soda,3.50
+Campari soda,3.50
+Apertass,5.00
+Aperol Spritz,5.00
+Campari Spritz,7.00
+Campari e Gin,6.00
+Gin Tonic, 6.00
+Gin Tonic con Gin Mare, 9.00
+
+
+birre
+Heineken 0.33 cl,3.00
+Heineken 0.66 cl,4.00
+Paulaner,4.00
+Tennens,4.00
+Corona,4.00
+Ceres,4.00
+Beck’s,3.50
+Peroni,2.50
+
+vino a calice
+Bianchi, 
+Gewurtztraminer,6.00
+Vignolella - Fiano,5.00
+Falanghina,5.00
+Rossi,
+Pietralena,5.00
+Aglianico Campania IGP,5.00
+
 
 panini
 Pomodori e rucola, 6.00
@@ -70,32 +101,15 @@ Frutta al pezzo, 6.00
 Tagliata di frutta, 12.00
 
 
-birre
-Heineken 0.33 cl,3.00
-Heineken 0.66 cl,4.00
-Paulaner,4.00
-Tennens,4.00
-Corona,4.00
-Ceres,4.00
-Beck’s,3.50
-Peroni,2.50
 
-aperitivi e cocktails
-Prosecco,4.00
-Aper Tassoni,5.00
-Aperol Spritz,5.00
-Campari Spritz,7.00
-Campari e Gin,6.00
-Gin Tonic, 6.00
-Gin Tonic con Gin Mare, 9.00
+
 
 distillati e liquori
 Limoncello,3.00
 Crema di limone,3.00
-Brachetto,3.00
 Grappa bianca,4.00
 Grappa scura,4.00
-Grappa 18 lune,6.00
+Grappa 18 lune,4.00
 Whisky,4.00
 Rum Classico,5.00
 Rum Zacapa,6.00
@@ -105,18 +119,11 @@ Bayleis,3.50
 Martini,3.50
 Gin,3.50
 Sambuca,3.50
-Vodka liscia,3.00
+Vodka liscia,3.50
 Vodka non liscia,3.50
 Tequila,3.00
 Amari,3.50
 
-vino a calice
-Bianchi,5.00
-Gewurtztraminer,6.00
-Vignolella - Fiano,5.00
-Falanghina,5.00
-Rossi,5.00
-Pietralena,5.00
-Aglianico Campania IGP,5.00
+
 
 
