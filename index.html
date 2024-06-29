@@ -1,201 +1,569 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu Lido Bella Vista</title>
+    <link rel="stylesheet" href="styles.css" />
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
+
     <style>
-      body {
+        /* body {
         background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><rect width="100%" height="100%" fill="%23e0f2fe"/><path d="M0 0l200 200M0 200L200 0" stroke="%23bae6fd" stroke-width="2"/></svg>');
         background-repeat: repeat;
-      }
+      } */
     </style>
-  </head>
-  <body class="bg-sky-100 text-sky-900 font-sans">
-    <header class="bg-sky-500 text-white p-4 text-center sticky top-0 z-10">
-      <h1 class="text-2xl font-bold">Menu Lido Bella Vista</h1>
+</head>
+
+<body class="bg-slate-200 text-sky-900 font-sans pb-14">
+    <header class="bg-sky-500 text-white p-4 text-center">
+        <h1 class="text-4xl font-bold font-serif italic">Menu Lido 5 Vele</h1>
     </header>
 
-    <main class="container mx-auto px-4 py-8 my-20 bg-white rounded-lg">
-      <section id="caffetteria" class="mb-8">
-        <h2 class="text-xl font-bold mb-4 bg-sky-200 p-2 rounded">
-          Caffetteria
-        </h2>
-        <ul class="space-y-2">
-          <li class="flex justify-between">
-            <span>Espresso</span><span>€1.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Cappuccino</span><span>€2.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Croissant</span><span>€1.80</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Espresso</span><span>€1.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Cappuccino</span><span>€2.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Croissant</span><span>€1.80</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Espresso</span><span>€1.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Cappuccino</span><span>€2.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Croissant</span><span>€1.80</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Espresso</span><span>€1.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Cappuccino</span><span>€2.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Croissant</span><span>€1.80</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Espresso</span><span>€1.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Cappuccino</span><span>€2.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Croissant</span><span>€1.80</span>
-          </li>
-        </ul>
-      </section>
+    <main class="container mx-auto px-4 py-8 my-28 bg-white rounded-lg ">
+        <!--
 
-      <section id="drink" class="mb-8">
-        <h2 class="text-xl font-bold mb-4 bg-sky-200 p-2 rounded">Drink</h2>
-        <ul class="space-y-2">
-          <li class="flex justify-between">
-            <span>Spritz Aperol</span><span>€7.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Mojito</span><span>€8.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Gin Tonic</span><span>€9.00</span>
-          </li>
-        </ul>
-      </section>
+INIZIO CONTENUTO GENERATO
 
-      <section id="snack" class="mb-8">
-        <h2 class="text-xl font-bold mb-4 bg-sky-200 p-2 rounded">Snack</h2>
-        <ul class="space-y-2">
-          <li class="flex justify-between">
-            <span>Patatine</span><span>€3.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Olive Ascolane</span><span>€5.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Bruschette</span><span>€4.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Patatine</span><span>€3.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Olive Ascolane</span><span>€5.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Bruschette</span><span>€4.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Patatine</span><span>€3.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Olive Ascolane</span><span>€5.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Bruschette</span><span>€4.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Patatine</span><span>€3.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Olive Ascolane</span><span>€5.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Bruschette</span><span>€4.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Patatine</span><span>€3.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Olive Ascolane</span><span>€5.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Bruschette</span><span>€4.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Patatine</span><span>€3.50</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Olive Ascolane</span><span>€5.00</span>
-          </li>
-          <li class="flex justify-between">
-            <span>Bruschette</span><span>€4.50</span>
-          </li>
-        </ul>
-      </section>
+-->
+        <!--
+
+INIZIO SEZIONE: caffetteria
+
+-->
+        <section id="caffetteria" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/caffetteria.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    caffetteria</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè freddo</span><span>1.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè</span><span>1.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè decaffeinato</span><span>1.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè orzo</span><span>1.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè shakerato</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè nocciola</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè le 5 vele</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè crema</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè crema fior di latte</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè con panna</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Caffè macchiato</span><span>1.30 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Cappuccino</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Latte macchiato</span><span>1.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Latte</span><span>1.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Cioccolata calda</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>The caldo</span><span>2.00 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: caffetteria
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: bibite
+    
+    -->
+        <section id="bibite" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/bibite.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    bibite</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Coca Cola lattina</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Fanta lattina</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Sprite</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Aranciata amara</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Shweppes limone</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Shweppes arancia</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Gassosa</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>The al limone</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>The alla pesca</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Chinotto</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Cedrata</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Red Bull</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Gatorade</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Lemon soda</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Oran soda</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Aperol soda</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Campari soda</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Acqua bott. piccola</span><span>1.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Acqua bott. grande</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Succhi di frutta</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Granite con sciroppi</span><span>2.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Granite di Limone</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Orzata</span><span>2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Menta</span><span>2.00 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: bibite
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: snacks
+    
+    -->
+        <section id="snacks" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/snacks.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    snacks</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>patatine</span><span> 2.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>patatine in tubo</span><span> 3.00 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: snacks
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: panini
+    
+    -->
+        <section id="panini" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/panini.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    panini</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Pomodori</span><span> 5.00 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: panini
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: ristorante
+    
+    -->
+        <section id="ristorante" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/ristorante.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    ristorante</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Pasta con vongole</span><span> 9.00 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: ristorante
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: birre
+    
+    -->
+        <section id="birre" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/birre.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    birre</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Heineken 0.33 cl</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Heineken 0.66 cl</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Paulaner</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Tennens</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Corona</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Ceres</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Beck’s</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Peroni</span><span>2.50 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: birre
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: cocktails
+    
+    -->
+        <section id="cocktails" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/cocktails.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    cocktails</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Campari e Gin</span><span>6.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Spritz</span><span>5.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Aper Tassoni</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Gin Tonic</span><span> 6.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Gin Tonic con Gin Mare</span><span> 9.00 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: cocktails
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: alcolici
+    
+    -->
+        <section id="alcolici" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/alcolici.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    alcolici</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Limoncello</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Crema di limone</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Prosecco</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Brachetto</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Grappa bianca</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Grappa scura</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Grappa 18 lune</span><span>6.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Whisky</span><span>4.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Rum Classico</span><span>5.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Rum Zacapa</span><span>6.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Rum Diplomatico</span><span>6.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Contreau</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Bayleis</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Martini</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Gin</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Sambuca</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Vodka liscia</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Vodka non liscia</span><span>3.50 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Tequila</span><span>3.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Amari</span><span>3.50 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: alcolici
+    
+    -->
+        <!--
+    
+    INIZIO SEZIONE: vino a calice
+    
+    -->
+        <section id="vino-a-calice" class="mb-8">
+            <div class="flex gap-2  items-end mb-6 ">
+                <img src="icons/vino a calice.png" alt="Caffetterie" class="w-8 h-8 object-contain " />
+                <h2
+                    class="text-lg mx-2 font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    vino a calice</h2>
+            </div>
+            <ul class="space-y-1 px-4 text-sm">
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Bianchi</span><span>5.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Gewurtztraminer</span><span>6.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Vignolella - Fiano</span><span>5.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Falanghina</span><span>5.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Rossi</span><span>5.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Pietralena</span><span>5.00 €</span>
+                </li>
+                <li class="flex justify-between border-b border-gray-200 border-dashed py-1">
+                    <span>Aglianico Campania IGP</span><span>5.00 €</span>
+                </li>
+            </ul>
+        </section>
+        <!--
+    \FINE SEZIONE: vino a calice
+    
+    -->
+        <!--
+    \FINE CONTENUTO GENERATO
+    
+    -->
+
+
+
+
+
+
+        <section id="gelati" class="">
+            <div class="flex gap-4  items-end mb-4 bg-slate-1400 ">
+                <img src="icons/chocolate.png" alt="Gelati" class="w-8 h-8 object-contain " />
+
+                <h2
+                    class="text-xl font-bold font-serif tracking-widest uppercase    bg-sky-1200  w-full border-double  shadow-sky-400 border-b border-sky-300 pb-1 px-2">
+                    Gelati
+                </h2>
+            </div>
+
+            <div class="flex w-full justify-center py-6">
+                <img src="icons/gelati_price.JPG" alt="Prezzi Gelati"
+                    class="w-[90%]  object-contain  shadow-sky-500 border-2 rounded border-sky-500" />
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
     </main>
 
-    <nav
-      class="fixed bottom-4 left-0 right-0 flex justify-end space-x-1 bg-opacity-80 p-2"
-    >
-      <a
-        href="#caffetteria"
-        class="text-white w-12 h-12 flex justify-center items-center rounded bg-sky-500"
+    <nav class="fixed bottom-0 left-0 right-0 flex flex-wrap justify-end space-x-1 bg-opacity-80 p-2">
+        <a href="#caffetteria"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/caffetteria.png" alt="Caffetterie" class="w-8 h-8 object-contain" />
+        </a>
+        <a href="#bibite"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/bibite.png" alt="Caffetterie" class="w-8 h-8 object-contain" />
+        </a>
+        <a href="#snacks"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/snacks.png" alt="Snacks" class="w-8 h-8 object-contain" />
+        </a>
+
+
+        <a href="#panini"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/panini.png" alt="Panini" class="w-8 h-8 object-contain" />
+        </a>
+
+        <a href="#ristorante"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/ristorante.png" alt="Restaurant" class="w-8 h-8 object-contain" />
+        </a>
+        <a href="#birre"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/birre.png" alt="Beer" class="w-8 h-8 object-contain" />
+        </a>
+        <a href="#cocktails"
+            class="text-white w-12 h-12 flex justify-center items-center rounded  border backdrop-blur-lg border-sky-500""
       >
-        <i class="fas fa-coffee"></i>
-      </a>
-      <a
-        href="#drink"
-        class="text-white w-12 h-12 flex justify-center items-center rounded bg-sky-500"
-      >
-        <i class="fas fa-glass-martini-alt"></i>
-      </a>
-      <a
-        href="#snack"
-        class="text-white w-12 h-12 flex justify-center items-center rounded bg-sky-500"
-      >
-        <i class="fas fa-pizza-slice"></i>
-      </a>
+      <img
+      src=" icons/cocktails.png" alt="Cocktail" class="w-8 h-8 object-contain" />
+        </a>
+
+        <a href="#alcolici"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/alcolici.png" alt="Rum" class="w-8 h-8 object-contain" />
+        </a>
+
+
+        <a href="#vino-a-calice"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/vino a calice.png" alt="Wine Glass" class="w-8 h-8 object-contain" />
+        </a>
+
+        <a href="#gelati"
+            class="text-white w-12 h-12 flex justify-center items-center rounded border backdrop-blur-lg border-sky-500">
+            <img src="icons/chocolate.png" alt="Gelati" class="w-8 h-8 object-contain" />
+        </a>
+
+
     </nav>
 
     <script>
-      document.querySelectorAll("nav a").forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-          const targetId = this.getAttribute("href").substring(1);
-          const targetElement = document.getElementById(targetId);
-          const header = document.querySelector("header");
-          const headerHeight = header.offsetHeight;
-          const targetPosition =
-            targetElement.getBoundingClientRect().top +
-            window.pageYOffset -
-            headerHeight;
+        document.querySelectorAll("nav a").forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute("href").substring(1);
+                const targetElement = document.getElementById(targetId);
+                const header = document.querySelector("header");
+                const headerHeight = header.offsetHeight;
+                const targetPosition =
+                    targetElement.getBoundingClientRect().top +
+                    window.pageYOffset -
+                    headerHeight;
 
-          window.scrollTo({
-            top:
-              targetPosition -
-              window.innerHeight / 2 +
-              targetElement.offsetHeight / 2,
-            behavior: "smooth",
-          });
+                window.scrollTo({
+                    top:
+                        targetPosition -
+                        window.innerHeight / 2 +
+                        targetElement.offsetHeight / 2,
+                    behavior: "smooth",
+                });
+            });
         });
-      });
     </script>
-  </body>
+</body>
+
 </html>
