@@ -18,7 +18,9 @@ def generate_html(csv_file, output_file):
     html_content = []
     html_content.append('<!--\n\nINIZIO CONTENUTO GENERATO\n\n-->')
 
-    for section, items in sections.items():
+    for section, items,  in sections.items():
+    
+
         html_content.append(f'<!--\n\nINIZIO SEZIONE: {section}\n\n-->')
 
         section_id = section.lower().replace(" ", "-")

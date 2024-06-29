@@ -71,12 +71,13 @@ Peroni,2.50
 
 vino a calice
 Bianchi, 
-Gewurtztraminer,6.00
-Vignolella - Fiano,5.00
-Falanghina,5.00
+Gewurtztraminer,6.00, Bianchi
+Vignolella - Fiano,5.00, Bianchi
+Falanghina,5.00, Bianchi
 Rossi,
-Pietralena,5.00
-Aglianico Campania IGP,5.00
+Pietralena,5.00, Rossi
+Aglianico Campania IGP,5.00,
+
 
 
 panini
