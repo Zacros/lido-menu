@@ -66,7 +66,8 @@ Remove the default font size and weight for headings.
 */
 
 h1,
-h2 {
+h2,
+h4 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -174,7 +175,8 @@ Removes the default spacing and border for appropriate elements.
 
 
 h1,
-h2 {
+h2,
+h4 {
   margin: 0;
 }
 
@@ -272,6 +274,23 @@ img {
   .h2 {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+}
+
+  h4,
+  .h4 {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+  @media (min-width: 768px) {
+
+  h4,
+  .h4 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -534,6 +553,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -543,11 +565,20 @@ img {
 .mb-28 {
   margin-bottom: 7rem;
 }
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
+.ml-2 {
+  margin-left: 0.5rem;
+}
 .mt-0 {
   margin-top: 0px;
+}
+.mt-3 {
+  margin-top: 0.75rem;
 }
 .flex {
   display: flex;
@@ -603,15 +634,13 @@ img {
 .gap-y-1 {
   row-gap: 0.25rem;
 }
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 .rounded {
   border-radius: 0.25rem;
@@ -748,6 +777,9 @@ img {
 .font-bold {
   font-weight: 700;
 }
+.font-medium {
+  font-weight: 500;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -756,6 +788,10 @@ img {
 }
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+.text-sky-500 {
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 .text-sky-900 {
   --tw-text-opacity: 1;
